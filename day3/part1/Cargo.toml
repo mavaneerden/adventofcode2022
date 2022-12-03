@@ -1,0 +1,6 @@
+[package]
+name="day3part1"
+version="1.0.0"
+
+[dependencies]
+regex="1"
