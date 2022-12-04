@@ -2,7 +2,9 @@
 
 AoC 2022 in Rust, but
 
-- the `main` function must contain a single `println!` call that prints the answer and nothing else;
+- the `main` function must be the only function in the solution;
+- the `main` function must contain only a single `println!` call that prints the answer;
+- there cannot be any newlines inside the `println!` parameter(s);
 - any closure can contain only one statement (if-then-else counts as one statement);
 - only `itertools` and `regex` crates are allowed.
 
